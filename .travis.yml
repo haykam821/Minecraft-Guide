@@ -1,3 +1,4 @@
+before_script: npm install --only=dev
 script: npm run build
 deploy:
   provider: pages

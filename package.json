@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"file-loader": "^3.0.1",
+		"html-minify-loader": "^1.4.0",
+		"webpack": "^4.31.0",
+		"webpack-cli": "^3.3.2"
+	},
+	"scripts": {
+		"build": "webpack --config webpack.config.js"
+	}
+}
